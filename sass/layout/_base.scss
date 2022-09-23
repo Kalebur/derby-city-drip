@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Quantico", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-area {
+  width: 100%;
+}
