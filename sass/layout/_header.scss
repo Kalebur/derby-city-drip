@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  background-color: $color-teal-light;
+  transition: $transition-default;
+  height: 6.5rem;
+
+  .header-top {
+    padding: 2rem;
+    z-index: 1;
+    position: relative;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    max-width: 65%;
+    margin-left: 2rem;
+    position: relative;
+  }
+
+  i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-brown-dark;
+    font-size: 5rem;
+    margin-top: -1rem;
+    vertical-align: top;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  nav {
+    position: relative;
+    transform: translateY(-100%);
+    transition: $transition-default;
+    ul {
+      z-index: -1;
+      li {
+        width: 100%;
+        background-color: $color-teal-dark;
+        color: $color-white;
+        padding: 1rem 0;
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+
+        &:hover,
+        &:active {
+          background-color: $color-brown-light;
+        }
+      }
+    }
+  }
+}

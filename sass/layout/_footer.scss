@@ -1,5 +1,4 @@
 footer {
-  padding: 2rem;
   background-color: $color-teal-dark;
   color: $color-white;
   font-size: 2rem;
@@ -9,19 +8,86 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
+
+    .footer-top {
+      padding: 4rem 4rem;
+
+      h3 {
+        margin: 4rem 0 2rem 0;
+        font-size: 3rem;
+      }
+
+      .location-info {
+        address {
+          font-style: normal;
+        }
+
+        p:first-of-type {
+          margin-top: 2rem;
+        }
+      }
+
+      .sitemap {
+        display: flex;
+        flex-direction: column;
+
+        a:not(:last-of-type) {
+          margin-bottom: 2rem;
+        }
+      }
+
+      .social-links {
+        p {
+          text-transform: none;
+          margin-bottom: 2rem;
+        }
+
+        .social-icons {
+          display: flex;
+          padding: 0 2rem;
+          justify-content: space-between;
+
+          .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $color-teal-dark;
+            font-size: 3rem;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: $color-teal-light;
+            transition: $transition-default;
+
+            &:hover {
+              color: $color-white;
+              background-color: $color-brown-light;
+            }
+          }
+        }
+      }
+    }
 
     p {
       font-weight: 300;
     }
 
-    p:not(:last-of-type) {
-      margin-bottom: 2rem;
-    }
-
     a {
+      color: $color-white;
+      transition: $transition-default;
+
       &:hover {
         color: $color-yellow;
+      }
+    }
+
+    .footer-bottom {
+      background-color: $color-teal-darkest;
+      text-align: center;
+      padding: 4rem 0;
+
+      p:not(:last-of-type) {
+        margin-bottom: 2rem;
       }
     }
   }

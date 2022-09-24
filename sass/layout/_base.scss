@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 h1,
 h2,
 h3,
@@ -18,6 +22,10 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -25,4 +33,40 @@ body {
 
 .content-area {
   width: 100%;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+.no-display {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:visited {
+    color: white;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  border-radius: $border-radius-default;
+  color: $color-white;
+  transition: $transition-default;
+  font-size: 2.5rem;
+  font-family: $font-headings;
+  text-transform: uppercase;
+}
+
+.btn-brown {
+  background-color: $color-brown-dark;
+
+  &:hover,
+  &:active {
+    background-color: $color-brown-light;
+  }
 }
