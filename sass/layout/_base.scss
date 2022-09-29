@@ -70,3 +70,16 @@ a {
     background-color: $color-brown-light;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .content-area {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .content-area {
+    width: 50%;
+  }
+}

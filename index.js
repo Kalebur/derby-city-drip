@@ -25,4 +25,12 @@ window.addEventListener("DOMContentLoaded", () => {
       menuBtn.classList.remove("fa-bars");
     }
   });
+
+  window.addEventListener("resize", (e) => {
+    header.style = "";
+
+    if (window.innerWidth >= 600) {
+      navMenu.style = "";
+    }
+  });
 });
