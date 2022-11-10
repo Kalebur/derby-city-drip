@@ -8,9 +8,9 @@ main {
           $color-teal-light 10%,
           transparent 40%
         ),
-        url("/assets/photos/coffee-hero-bg.jpg");
-      background-size: 300%;
-      background-position: 65% -55%;
+        url("../assets/photos/coffee-hero-bg.jpg");
+      background-size: 1250px;
+      background-position: 65% -75%;
       background-repeat: no-repeat;
       padding: 8rem 2rem;
       display: flex;
@@ -39,7 +39,7 @@ main {
 
   /* ABOUT COFFEES SECTION */
   .about-coffees {
-    background: url("/assets/photos/coffee-beans-bg.jpg");
+    background: url("../assets/photos/coffee-beans-bg.jpg");
     background-size: 200%;
     background-position: center;
     .content-area {
@@ -225,7 +225,7 @@ main {
           ),
           linear-gradient(to right, $color-teal-light 45%, transparent 50%),
           linear-gradient(to left, $color-teal-light 20%, transparent 30%),
-          url("/assets/photos/coffee-hero-bg.jpg");
+          url("../assets/photos/coffee-hero-bg.jpg");
         background-size: 1500px;
         background-position: -625px 50px;
         background-repeat: no-repeat;
@@ -326,7 +326,7 @@ main {
 @media screen and (min-width: 999px) {
   main {
     .hero {
-      background: url("/assets/photos/coffee-hero-bg.jpg");
+      background: url("../assets/photos/coffee-hero-bg.jpg");
       background-size: 2000px;
       background-position: 50% -350px;
       .content-area {

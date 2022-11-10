@@ -356,9 +356,9 @@ main .hero {
   background-color: #d5e2e2;
 }
 main .hero .content-area {
-  background: linear-gradient(to bottom, #d5e2e2 10%, transparent 40%), url("/assets/photos/coffee-hero-bg.jpg");
-  background-size: 300%;
-  background-position: 65% -55%;
+  background: linear-gradient(to bottom, #d5e2e2 10%, transparent 40%), url("../assets/photos/coffee-hero-bg.jpg");
+  background-size: 1250px;
+  background-position: 65% -75%;
   background-repeat: no-repeat;
   padding: 8rem 2rem;
   display: flex;
@@ -380,7 +380,7 @@ main .hero [data-device=tablet-plus] {
   display: none;
 }
 main .about-coffees {
-  background: url("/assets/photos/coffee-beans-bg.jpg");
+  background: url("../assets/photos/coffee-beans-bg.jpg");
   background-size: 200%;
   background-position: center;
 }
@@ -518,7 +518,7 @@ main .coffee-club .content-area form button:hover {
 
 @media screen and (min-width: 600px) {
   main .hero .content-area {
-    background: linear-gradient(to bottom, #d5e2e2 10%, transparent 40%), linear-gradient(to right, #d5e2e2 45%, transparent 50%), linear-gradient(to left, #d5e2e2 20%, transparent 30%), url("/assets/photos/coffee-hero-bg.jpg");
+    background: linear-gradient(to bottom, #d5e2e2 10%, transparent 40%), linear-gradient(to right, #d5e2e2 45%, transparent 50%), linear-gradient(to left, #d5e2e2 20%, transparent 30%), url("../assets/photos/coffee-hero-bg.jpg");
     background-size: 1500px;
     background-position: -625px 50px;
     background-repeat: no-repeat;
@@ -589,7 +589,7 @@ main .menu .content-area .snacks > p {
 }
 @media screen and (min-width: 999px) {
   main .hero {
-    background: url("/assets/photos/coffee-hero-bg.jpg");
+    background: url("../assets/photos/coffee-hero-bg.jpg");
     background-size: 2000px;
     background-position: 50% -350px;
   }
