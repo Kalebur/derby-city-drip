@@ -47,9 +47,6 @@ p {
 a {
   text-decoration: none;
 }
-a:visited {
-  color: white;
-}
 
 .btn {
   display: inline-block;
@@ -243,6 +240,10 @@ header nav ul {
   z-index: -1;
   width: 100%;
 }
+header nav ul a:link,
+header nav ul a:active {
+  color: #f2f2f2;
+}
 header nav ul li {
   width: 100%;
   background-color: #233237;
@@ -283,12 +284,12 @@ header nav ul li:active {
     display: inline-block;
     color: #45230f;
   }
-  header nav ul a,
+  header nav ul a:link,
 header nav ul a:active,
 header nav ul a:visited {
     color: #45230f;
   }
-  header nav ul a::after,
+  header nav ul a:link::after,
 header nav ul a:active::after,
 header nav ul a:visited::after {
     content: "";
@@ -301,14 +302,14 @@ header nav ul a:visited::after {
     transition: all 0.2s linear;
     transition-timing-function: ease-out;
   }
-  header nav ul a:hover, header nav ul a:active,
+  header nav ul a:link:hover, header nav ul a:link:active,
 header nav ul a:active:hover,
 header nav ul a:active:active,
 header nav ul a:visited:hover,
 header nav ul a:visited:active {
     background-color: transparent;
   }
-  header nav ul a:hover::after, header nav ul a:active::after,
+  header nav ul a:link:hover::after, header nav ul a:link:active::after,
 header nav ul a:active:hover::after,
 header nav ul a:active:active::after,
 header nav ul a:visited:hover::after,

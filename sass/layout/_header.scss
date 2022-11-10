@@ -38,6 +38,11 @@ header {
       z-index: -1;
       width: 100%;
 
+      a:link,
+      a:active {
+        color: $color-white;
+      }
+
       li {
         width: 100%;
         background-color: $color-teal-dark;
@@ -85,7 +90,7 @@ header {
           color: $color-brown-dark;
         }
 
-        a,
+        a:link,
         a:active,
         a:visited {
           color: $color-brown-dark;
