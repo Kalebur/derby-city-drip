@@ -14,6 +14,8 @@ Derby City Drip needs a new website (home page) built with the newest mobile, ta
 
 - Footer with location, sitemap and social media links.
 
+**Site design mockups provided by Code Kentucky/Code Louisville**
+
 ---
 
 **Photo Credits:**
